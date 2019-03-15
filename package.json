@@ -1,0 +1,23 @@
+{
+  "name": "com.testconexion.android",
+  "version": "1.0.0",
+  "displayName": "test Android 9",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-console": {},
+      "cordova-plugin-statusbar": {},
+      "phonegap-plugin-barcodescanner": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.3.0",
+    "cordova-plugin-whitelist": "~1.2.0",
+    "cordova-plugin-console": "~1.0.1",
+    "cordova-plugin-statusbar": "~1.0.1",
+    "phonegap-plugin-barcodescanner": "~6.0.8"
+  }
+}

@@ -31,9 +31,9 @@
         </edit-config>
     </platform>
     <preference name="DisallowOverscroll" value="true" />
+    <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <plugin name="phonegap-plugin-barcodescanner" spec="~6.0.8" />
-    <engine name="android" spec="~6.3.0" />
 </widget>
