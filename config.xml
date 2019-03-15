@@ -25,11 +25,7 @@
         <allow-intent href="itms-apps:*" />
         <preference name="BackupWebStorage" value="none" />
     </platform>
-    <platform name="android">
-        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
-            <application android:usesCleartextTraffic="true" />
-        </edit-config>
-    </platform>
+  
     <preference name="DisallowOverscroll" value="true" />
     <engine name="android" spec="~6.3.0" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
